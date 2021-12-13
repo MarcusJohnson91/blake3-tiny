@@ -2,6 +2,7 @@
 #define BLAKE3_H 1
 
 #include <stdint.h>
+#include <stddef.h> /* Included for size_t */
 
 struct blake3 {
     unsigned char input[64];          /* current input bytes */
